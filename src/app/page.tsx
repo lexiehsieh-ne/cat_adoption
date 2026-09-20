@@ -21,7 +21,7 @@ const profiles = [
     offset: "",
     fields: [
       { label: "性別", value: "女生" },
-      { label: "年齡", value: "約 2.5 個月" },
+      { label: "年齡", value: "約 3 個月" },
       { label: "體型", value: "約 1.6kg" },
       { label: "個性", value: "沉穩觀察、慢熟" },
     ],
@@ -34,7 +34,7 @@ const profiles = [
     offset: "md:mt-16",
     fields: [
       { label: "性別", value: "女生" },
-      { label: "年齡", value: "約 2.5 個月" },
+      { label: "年齡", value: "約 3 個月" },
       { label: "體型", value: "約 1.9kg" },
       { label: "個性", value: "活潑好奇、愛探索" },
     ],
@@ -73,7 +73,7 @@ export default function Home() {
             <div className="flex flex-col justify-between gap-8 md:col-span-4 md:pb-6">
               <p className="max-w-sm text-base leading-8 text-stone-600">
                 我們是「小玳」和「小瑁」，一對身上有著獨一無二黑橘花紋的玳瑁貓咪姊妹，
-                剛滿 2.5 個月，活潑愛玩又黏人。從出生就形影不離，
+                目前約 3 個月，正值活潑愛玩又黏人的年紀。從出生就形影不離，
                 最理想的狀況是能一起被同一個家庭認養，正在等待願意疼愛我們一輩子的溫暖的家。
               </p>
               <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
@@ -250,7 +250,7 @@ export default function Home() {
             我們會盡快回覆並安排相見歡！
           </p>
           <div className="flex flex-col gap-2 pt-2 font-mono text-sm text-stone-700">
-            <Leader label="私訊" value="歡迎直接私訊粉專" />
+            <Leader label="私訊" value="歡迎直接私訊" />
             <Leader label="Facebook" value="FB 搜尋『彭蘭慧』聯繫愛媽" />
             <Leader label="面交" value="台北市松山區" />
           </div>
