@@ -6,9 +6,9 @@ import { SectionHeading, Leader } from "@/components/Typography";
 import BookingForm from "@/components/BookingForm";
 
 const traits = [
-  { no: "01", title: "感情超好的姊妹", desc: "從出生就在一起，互相依偎、一起玩鬧，形影不離。" },
-  { no: "02", title: "健檢驅蟲完成", desc: "體內外驅蟲已完成，活力滿滿、食慾良好。" },
-  { no: "03", title: "疫苗接種中", desc: "已施打第一劑預防針，後續依時程回診追加。" },
+  { no: "01", title: "感情超好的姊妹", desc: "從小一起長大，會互相幫忙梳毛、打鬧、抱在一起睡覺，形影不離。" },
+  { no: "02", title: "血檢過關", desc: "已完成血液檢查，體內外驅蟲也已完成，精神好、食慾佳。" },
+  { no: "03", title: "第一劑預防針已完成", desc: "已施打第一劑預防針，後續依時程回診追加。" },
   { no: "04", title: "已經會用貓砂", desc: "幼貓時期就養成好習慣，上廁所不用煩惱。" },
 ];
 
@@ -21,7 +21,7 @@ const profiles = [
     offset: "",
     fields: [
       { label: "性別", value: "女生" },
-      { label: "年齡", value: "約 3 個月" },
+      { label: "年齡", value: "約 2.5 個月" },
       { label: "體型", value: "約 1.6kg" },
       { label: "個性", value: "沉穩觀察、慢熟" },
     ],
@@ -34,7 +34,7 @@ const profiles = [
     offset: "md:mt-16",
     fields: [
       { label: "性別", value: "女生" },
-      { label: "年齡", value: "約 3 個月" },
+      { label: "年齡", value: "約 2.5 個月" },
       { label: "體型", value: "約 1.9kg" },
       { label: "個性", value: "活潑好奇、愛探索" },
     ],
@@ -42,12 +42,12 @@ const profiles = [
 ];
 
 const conditions = [
-  "全家人都同意飼養，且無過敏疑慮",
-  "願意簽署認養切結書，同意不離不棄",
-  "居家環境有紗窗紗門，不放養、不關籠",
-  "經濟穩定，能負擔日常與醫療開銷",
-  "同意接受送養人家訪或視訊訪視",
-  "承諾於貓咪達適合年齡（約 5～6 個月）後完成絕育",
+  "年滿 25 歲，收入穩定",
+  "需施打晶片疫苗，並於適合年齡完成絕育",
+  "同意接受家訪",
+  "認養後需配合定期追蹤",
+  "需簽署認養同意書",
+  "恕不接受情侶、套房環境",
 ];
 
 export default function Home() {
@@ -60,7 +60,7 @@ export default function Home() {
         <section className="flex flex-col gap-10">
           <div className="flex flex-col gap-4">
             <span className="font-mono text-xs uppercase tracking-[0.3em] text-stone-500">
-              誠徵一個溫暖的家 · Est. 2026
+              誠徵一個溫暖的家 · 台北市松山區
             </span>
             <h1 className="text-balance font-display text-5xl leading-[0.95] tracking-tight text-stone-900 sm:text-7xl md:text-8xl">
               遇見一對
@@ -73,8 +73,8 @@ export default function Home() {
             <div className="flex flex-col justify-between gap-8 md:col-span-4 md:pb-6">
               <p className="max-w-sm text-base leading-8 text-stone-600">
                 我們是「小玳」和「小瑁」，一對身上有著獨一無二黑橘花紋的玳瑁貓咪姊妹，
-                今年剛滿 3 個月，活潑愛玩又黏人。從出生就形影不離，
-                正在等待一個願意疼愛我們一輩子的溫暖的家。
+                剛滿 2.5 個月，活潑愛玩又黏人。從出生就形影不離，
+                最理想的狀況是能一起被同一個家庭認養，正在等待願意疼愛我們一輩子的溫暖的家。
               </p>
               <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
                 <a
@@ -167,7 +167,8 @@ export default function Home() {
           </div>
 
           <p className="max-w-2xl text-sm leading-7 text-stone-600">
-            小玳和小瑁是同一胎出生的親姊妹，感情非常好，最理想的狀況是能一起被認養，
+            小玳和小瑁是同一胎出生的親姊妹，感情非常好，能互相陪玩、減少分離焦慮，
+            也很適合新手雙貓家庭，因此雙貓一起認養的家庭將優先考慮，
             如果您的環境只適合養一隻，也歡迎與我們討論，一切以貓咪的幸福為優先考量。
           </p>
         </section>
@@ -249,9 +250,9 @@ export default function Home() {
             我們會盡快回覆並安排相見歡！
           </p>
           <div className="flex flex-col gap-2 pt-2 font-mono text-sm text-stone-700">
-            <Leader label="LINE" value="（請填入你的聯絡方式）" />
-            <Leader label="Email" value="（請填入你的聯絡信箱）" />
-            <Leader label="面交" value="（請填入可面交或送養的地區）" />
+            <Leader label="私訊" value="歡迎直接私訊粉專" />
+            <Leader label="Facebook" value="FB 搜尋『彭蘭慧』聯繫愛媽" />
+            <Leader label="面交" value="台北市松山區" />
           </div>
         </section>
       </main>
