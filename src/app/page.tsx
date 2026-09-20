@@ -22,7 +22,7 @@ const profiles = [
     fields: [
       { label: "性別", value: "女生" },
       { label: "年齡", value: "約 3 個月" },
-      { label: "體型", value: "約 0.9kg" },
+      { label: "體型", value: "約 1.6kg" },
       { label: "個性", value: "沉穩觀察、慢熟" },
     ],
   },
@@ -35,7 +35,7 @@ const profiles = [
     fields: [
       { label: "性別", value: "女生" },
       { label: "年齡", value: "約 3 個月" },
-      { label: "體型", value: "約 0.8kg" },
+      { label: "體型", value: "約 1.9kg" },
       { label: "個性", value: "活潑好奇、愛探索" },
     ],
   },
