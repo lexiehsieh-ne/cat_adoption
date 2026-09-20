@@ -251,7 +251,19 @@ export default function Home() {
           </p>
           <div className="flex flex-col gap-2 pt-2 font-mono text-sm text-stone-700">
             <Leader label="私訊" value="歡迎直接私訊" />
-            <Leader label="Facebook" value="FB 搜尋『彭蘭慧』聯繫愛媽" />
+            <Leader
+              label="Facebook"
+              value={
+                <a
+                  href="https://www.facebook.com/peng.lan.hui.988785"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-dotted underline-offset-4 hover:text-stone-900"
+                >
+                  彭蘭慧（愛媽）
+                </a>
+              }
+            />
             <Leader label="面交" value="台北市松山區" />
           </div>
         </section>

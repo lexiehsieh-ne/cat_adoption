@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Parallax from "@/components/Parallax";
 
 export function SectionHeading({
@@ -31,7 +32,13 @@ export function SectionHeading({
   );
 }
 
-export function Leader({ label, value }: { label: string; value: string }) {
+export function Leader({
+  label,
+  value,
+}: {
+  label: string;
+  value: ReactNode;
+}) {
   return (
     <div className="flex items-baseline gap-2">
       <span className="shrink-0 font-mono text-[11px] uppercase tracking-[0.15em] text-stone-500">
